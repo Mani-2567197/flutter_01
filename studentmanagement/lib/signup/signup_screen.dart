@@ -110,7 +110,7 @@ class _SignupScreenState extends State<SignupScreen> {
 
   void showAlertDialog(String message) {
     showDialog(
-        context: context,
+      context: context,
         builder: (context) {
           return AlertDialog(
             title: Text("Already Exists"),
