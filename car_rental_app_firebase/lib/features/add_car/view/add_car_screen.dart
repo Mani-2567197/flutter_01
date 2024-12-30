@@ -21,7 +21,7 @@ class AddCarScreen extends StatefulWidget {
 class _AddCarScreenState extends State<AddCarScreen> {
   final TextEditingController _nameTextController = TextEditingController();
   final TextEditingController _brandTextController = TextEditingController();
-  final TextEditingController _yearTextController = TextEditingController();
+ // final TextEditingController _yearTextController = TextEditingController();
   final TextEditingController _addressController = TextEditingController();
   final TextEditingController _priceTextController = TextEditingController();
   final TextEditingController _descriptionTextController =
@@ -207,31 +207,3 @@ class _AddCarScreenState extends State<AddCarScreen> {
   }
 }
 
-/*
-Name
-Brand
-yerar
-fuel type
-transmission type
-addres
-pricePerDay
-description
-UploadImage
-
-
-TASK -> 
-	1. Splash screen ->  
-	2. Login ->  
-	3. Sign up ->  
-	4. Home screen (cars list) ->
-	6. Add Car -> 
-
-<key>NSCameraUsageDescription</key>
-<string>We need to access your camera to take pictures.</string>
-<key>NSPhotoLibraryUsageDescription</key>
-<string>We need to access your gallery to pick photos.</string>
-
-
-Take Picture -> 1.  Camera 2. Gallery
-
- */

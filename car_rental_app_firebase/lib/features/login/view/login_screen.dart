@@ -1,9 +1,7 @@
 import 'package:car_rental_app_firebase/features/login/model/login_request_model.dart';
-import 'package:car_rental_app_firebase/features/login/model/login_response_model.dart';
 import 'package:car_rental_app_firebase/features/login/view_model/login_view_model.dart';
 import 'package:car_rental_app_firebase/routes/routes_constants.dart';
 import 'package:car_rental_app_firebase/services/firebase_response_model.dart';
-import 'package:car_rental_app_firebase/services/firebase_servies.dart';
 import 'package:car_rental_app_firebase/services/navigation_services.dart';
 import 'package:car_rental_app_firebase/utils/loader_utils.dart';
 import 'package:car_rental_app_firebase/widget/button_widget.dart';

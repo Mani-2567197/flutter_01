@@ -136,10 +136,3 @@ class _SignupScreenState extends State<SignupScreen> {
   }
 }
 
-/*
-View -> call the sign up api with user inputs name, email and password 
-VM -> create repository variable -> to help of the repo call the api -
-Repository -> based on VM request cal the api call using api service 
-Service  -> based on Repo request call the server get the reponse send back to repository 
-
- */

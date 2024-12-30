@@ -3,7 +3,6 @@ import 'package:car_rental_app_firebase/features/add_car/model/addcar_request_mo
 import 'package:car_rental_app_firebase/features/add_car/repository/add_car_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:provider/provider.dart';
 
 class AddCarViewModel extends ChangeNotifier {
   AddCarRepository repository;

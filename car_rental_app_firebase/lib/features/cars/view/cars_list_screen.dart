@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:car_rental_app_firebase/features/bookings/model/booking_request_model.dart';
 import 'package:car_rental_app_firebase/features/bookings/view_model/bookin_view_model.dart';
 import 'package:car_rental_app_firebase/features/cars/view_model/cars_view_model.dart';
@@ -73,7 +71,3 @@ class _CarsListScreenState extends State<CarsListScreen> {
     carsViewModel.getCars();
   }
 }
-
-/**
-
- */
